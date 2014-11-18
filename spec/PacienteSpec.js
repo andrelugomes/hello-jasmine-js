@@ -12,7 +12,7 @@ describe("Paciente", function(){
 	it("Deve calcular os batimentos", function(){
 		var andre =  new Paciente("André", 29, 100, 1.87);
 		var batimentos = andre.batimentos();
-
-		expect(batimentos).toEqual(29*365*24*60*80));
+		expect(batimentos).toEqual(29*365*24*60*80);
 	});
+	
 });
